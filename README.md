@@ -47,8 +47,10 @@ Contributions are welcome! If you have ideas for new projects or improvements to
 
 ## 📬 Contact
 Feel free to connect with me for feedback, suggestions, or collaboration:
+- 📧 [Gmail](mailto:rz.rahimi01@gmail.com)
 - 🌐 [LinkedIn](https://www.linkedin.com/in/rz-rahimi01)
 - 🐱 [GitHub](https://github.com/rz-rahimi01)
+
 
 ---
 
