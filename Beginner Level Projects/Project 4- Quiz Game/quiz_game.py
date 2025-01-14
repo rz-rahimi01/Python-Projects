@@ -4,7 +4,8 @@ questions = {
     2: {"question": "What is the full form of RAM?", "answer": "random access memory"},
     3: {"question": "What is the full form of ROM?", "answer": "read-only memory"},
     4: {"question": "What is the full form of HTTP?", "answer": "hypertext transfer protocol"},
-    5: {"question": "What is the full form of URL?", "answer": "uniform resource locator"}
+    5: {"question": "What is the full form of IP?", "answer": "Internet protocol"},
+    6: {"question": "What is the full form of URL?", "answer": "uniform resource locator"}
 }
 
 # Initialize score and total number of questions
