@@ -1,12 +1,16 @@
-#importing random module so that we can select numbers randomly
 import random
 
-print("Welcome to ludo game !")
+print("Welcome to the Ludo game!")
 
-random_nbr = random.randint(1,6)
-'''randint is used to select number from the starting range till ending range
-you can also use random_nbr = random.randrange(1,7) to get the above thing here we write 7
-because the randrange exclusive the ending number'''
+while True:  # Loop to allow multiple rolls
+    input("Press Enter to roll the dice...") # User presses enter to roll
 
-print("Hey! you have got a",random_nbr,"number dice.")
+    random_nbr = random.randint(1, 6)
+    print(f"Hey! You rolled a {random_nbr} on the dice.")
 
+    # Ask the user if they want to roll again
+    play_again = input("Roll again? (yes/no): ").lower()
+    if play_again != 'yes':
+        break # Exit the loop if the user doesn't say 'yes'
+
+print("Thanks for playing!")
