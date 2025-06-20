@@ -1,28 +1,48 @@
-# Dictionary of questions and answers
-questions = {
-    1: {"question": "What is the full form of CPU?", "answer": "central processing unit"},
-    2: {"question": "What is the full form of RAM?", "answer": "random access memory"},
-    3: {"question": "What is the full form of ROM?", "answer": "read-only memory"},
-    4: {"question": "What is the full form of HTTP?", "answer": "hypertext transfer protocol"},
-    5: {"question": "What is the full form of IP?", "answer": "Internet protocol"},
-    6: {"question": "What is the full form of URL?", "answer": "uniform resource locator"}
-}
+# Welcome message
+print("""
+*************************************
+*  Welcome to the Python Quiz Game! *
+*  Test your knowledge of computer  *
+*        acronyms and terms.        *
+*************************************
+""")
 
-# Initialize score and total number of questions
-correct_answers = 0
+# Initialize score
+score = 0
 total_questions = len(questions)
 
-# Loop through the dictionary to ask questions
-for key, value in questions.items():
-    print(value["question"])
+# Main quiz loop
+for q_num, q_data in questions.items():
+    print(f"\nQuestion {q_num}/{total_questions}:")
+    print(q_data["question"])
     user_answer = input("Your answer: ").strip().lower()
     
-    # Check if the answer is correct
-    if user_answer == value["answer"]:
-        print("Correct!")
-        correct_answers += 1
+    # Check answer
+    if user_answer == q_data["answer"]:
+        print("✅ Correct!")
+        score += 1
     else:
-        print(f"Wrong! The correct answer is: {value['answer']}")
+        print(f"❌ Wrong! The correct answer is: {q_data['answer']}")
 
-# Display the results
-print(f"\nYou answered {correct_answers} out of {total_questions} questions correctly.")
+# Display final results
+percentage = (score / total_questions) * 100
+print("\n" + "="*40)
+print(f"Quiz Complete!\nYour score: {score}/{total_questions} ({percentage:.1f}%)")
+
+# Add some fun feedback based on score
+if percentage == 100:
+    print("🌟 Perfect! You're a computer whiz!")
+elif percentage >= 75:
+    print("👍 Great job! You know your tech!")
+elif percentage >= 50:
+    print("😊 Good effort! Keep learning!")
+else:
+    print("📚 Time to brush up on your computer terms!")
+print("="*40 + "\n")
+
+# Ask if user wants to play again
+play_again = input("Would you like to play again? (yes/no): ").lower()
+if play_again == "yes":
+    run_quiz()
+else:
+    print("\nThanks for playing! Goodbye!")
