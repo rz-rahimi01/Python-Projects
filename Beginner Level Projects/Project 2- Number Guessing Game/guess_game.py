@@ -1,22 +1,25 @@
-#importing random module so that we can select numbers randomly
+# Importing random module to select numbers randomly
 import random
 
-print("Welcome to guess game !")
+print("Welcome to the guessing game!")
 
-random_nbr = random.randrange(0,11)
-'''randrange is used to select number from the starting range till ending range (excluding end).'''
+# Generate a random number between 0 and 10 (inclusive)
+secret_number = random.randint(0, 10)
+'''randint is used here instead of randrange to make it clearer that both endpoints are included'''
 
-print ("Guess my number! (hint : between 0 and 10)")
-user_nbr = int (input ("Enter your guess: "))
+print("Guess my number! (Hint: it's between 0 and 10)")
 
-
-while user_nbr != random_nbr : #Our loop will run untill the user guess it correct.
-    if (user_nbr > random_nbr):
-        print("My number is below from your guess !")
-    else:
-        print("My number is above from your guess !")
-    user_nbr = int (input ("Enter your guess: "))
-else:
-    print("Congrats! you guessed it right my number is ",random_nbr)
-    
-
+while True:
+    try:
+        user_guess = int(input("Enter your guess: "))
+        
+        if user_guess == secret_number:
+            print(f"Congrats! You guessed it right. My number was {secret_number}!")
+            break
+        elif user_guess > secret_number:
+            print("My number is lower than your guess!")
+        else:
+            print("My number is higher than your guess!")
+            
+    except ValueError:
+        print("Please enter a valid number between 0 and 10.")
