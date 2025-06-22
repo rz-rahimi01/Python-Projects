@@ -7,9 +7,7 @@ Welcome to my **Python Projects Repository**! This repository is designed to sho
 1. **Beginner Level Projects**
    - 🛠️ Simple and foundational projects.
    - 🎯 Aimed at helping newcomers to Python grasp the basics of programming.
-   - Example:
-     - [Project 1 - Ludo Dice Simulator](https://github.com/rz-rahimi01/Python-Projects/tree/main/Beginner%20Level%20Projects/Project%201-%20LudoDice)
-
+  
 2. **Intermediate Level Projects**
    - 🚀 Projects that require a moderate understanding of Python concepts.
    - 🔍 Focuses on practical and real-world applications.
