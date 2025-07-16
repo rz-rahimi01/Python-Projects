@@ -21,24 +21,7 @@ Welcome to my **Python Projects Repository**! This repository is designed to sho
 ## 🎯 Purpose
 This repository is not only a showcase of my coding journey but also a resource for learners and programmers looking for inspiration, guidance, or challenges. It is a continuous work in progress, with new projects and updates added regularly.
 
-## 🛠️ How to Use
-1. Clone the repository using the command:
-   ```bash
-   git clone https://github.com/rz-rahimi01/Python-Projects
-   ```
-2. Navigate to the desired project level and program:
-   ```bash
-   # Replace <Level> and <Project> with the appropriate names
-   cd Python-Projects/<Level>/<Project>
-   ```
-   For example:
-   ```bash
-   cd Python-Projects/Beginner\ Level\ Projects/Project\ 1-\ LudoDice
-   ```
-3. Run the program file using Python:
-   ```bash
-   python <program_name>.py
-   ```
+
 
 ## 🤝 Contributions
 Contributions are welcome! If you have ideas for new projects or improvements to the existing ones, feel free to fork the repository, make changes, and submit a pull request. Let’s grow and learn together.
