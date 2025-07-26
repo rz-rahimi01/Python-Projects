@@ -1,4 +1,4 @@
-# 🐍 Python Projects Repository
+#  Python Projects Repository
 
 ## 🌟 Overview
 Welcome to my **Python Projects Repository**! This repository is designed to showcase Python programs across various skill levels. Whether you are a beginner, intermediate, or advanced programmer, you will find something valuable here. The repository is divided into three main sections:
