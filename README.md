@@ -35,5 +35,3 @@ Feel free to connect with me for feedback, suggestions, or collaboration:
 
 ---
 
-Thank you for visiting my repository! I hope you find it useful and inspiring. Happy coding! 🚀
-
