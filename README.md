@@ -6,7 +6,7 @@ Welcome to my **Python Projects Repository**! This repository is designed to sho
 ### 📂 Repository Structure
 1. **Beginner Level Projects**
    - 🛠️ Simple and foundational projects.
-   - 🎯 Aimed at helping newcomers to Python grasp the basics of programming.
+   - 🎯 Aimed at helping new-comers to Python grasp the basics of programming.
   
 2. **Intermediate Level Projects**
    - 🚀 Projects that require a moderate understanding of Python concepts.
